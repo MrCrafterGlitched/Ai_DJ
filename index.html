@@ -11,7 +11,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
 
   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
@@ -31,6 +31,9 @@
     <div class="div_volume"><img class="div_volume_img" src="disk.gif"><br>
       <h3 class="btn btn-danger" id="volume">volume</h3>
     </div>
+   <button class="btn btn-info" onclick="play()">Play</button>
+  <button class="btn btn-primary" onclick="pause()">Pause</button>
+  <button class="btn btn-danger" onclick="stop()">Stop</button>
   </center>
 
   <script src="main.js"></script>
